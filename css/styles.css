@@ -1,0 +1,13 @@
+#logo {
+height: 6rem;
+}
+
+#navegador {
+
+    background: rgb(41,166,92);
+    background: linear-gradient(180deg, rgba(41,166,92,0.5035384427584135) 0%, rgba(255,255,255,0.5035384427584135) 50%, rgba(172,10,10,0.5035384427584135) 100%);
+    border-bottom-style: ridge;
+    border-bottom-width: 0.2rem;
+    border-bottom-color: #888;
+    
+}
