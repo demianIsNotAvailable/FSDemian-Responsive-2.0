@@ -4,7 +4,7 @@
 
 ## Descrición del proyecto
 
-  Una página web sencilla y no especialmente bonita creada con el propósito de implementar funcionalidad responsive. En este caso ha sido desarrollada casi íntegramente a través de la implementación de componentes Bootstrap haciendo uso de su librería de clases para la posterior configuración, tratando de minimizar la necesidad de CSS. Construida en Visual Studio Code en HTML5 y CSS3, entre el 17 y el 20 de de Marzo de 2023.
+  Una página web sencilla y no especialmente bonita creada con el propósito de implementar funcionalidad responsive. En este caso ha sido desarrollada casi íntegramente a través de la implementación de componentes Bootstrap haciendo uso de su librería de clases para la posterior configuración, tratando de minimizar la necesidad de CSS. Construida en Visual Studio Code en HTML5 y CSS3, entre el 17 y el 20 de de Marzo de 2023. Se puede acceder directamente [desde aquí](https://demianisnotavailable.github.io/FSDemian-Responsive-2.0/).
 
 ### Objetivos marcados (sección de reflexión)
 
