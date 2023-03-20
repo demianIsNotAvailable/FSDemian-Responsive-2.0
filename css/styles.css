@@ -1,43 +1,76 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+
+
+
+
+
+
 #logo {
-height: 5rem;
+  height: 5rem;
 }
 
 #navegador {
-
-    background: rgb(41,166,92);
-    background: linear-gradient(90deg, rgba(41,166,92,0.5035384427584135) 0%, rgba(255,255,255,0.5035384427584135) 50%, rgba(172,10,10,0.5035384427584135) 100%);
-    border-bottom-style: ridge;
-    border-bottom-width: 0.2rem;
-    border-bottom-color: #888;
-
+ 
+  background: linear-gradient(
+    90deg,
+    rgba(41, 166, 92, 0.5035384427584135) 0%,
+    rgba(255, 255, 255, 0.5035384427584135) 50%,
+    rgba(172, 10, 10, 0.5035384427584135) 100%
+  );
+  border-bottom-style: ridge;
+  border-bottom-width: 0.2rem;
+  border-bottom-color: #888;
 }
 
 .navbar-nav {
-    color: black;
-    font-size: 1.25rem;
-    font-weight: 700;
-    letter-spacing: 0.05rem;
-}
-
-
-
-body {
-
-    background: linear-gradient(221deg, #7dbf82, #a8a8a8, #dd8585);
-    background-size: 600% 600%;
-
-    animation: AnimationName 15s ease infinite;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
 }
 
 @keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+  0% {
+    background-position: 0% 51%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 51%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    #about-img {
-        width: 100vw;
-        margin-left: -3.5vw;
-    }
+  #about-img {
+    width: 100vw;
+    margin-left: 0vw;
+  }
+}
+
+.accordion-button {
+display: block;
+text-align: center;
+
+background: linear-gradient(
+  90deg,
+  rgba(41, 166, 92, 0.5035384427584135) 0%,
+  rgba(255, 255, 255, 0.5035384427584135) 50%,
+  rgba(172, 10, 10, 0.5035384427584135) 100%
+);
+
+}
+
+.capt {
+  text-align: end;
+}
+.green {
+  color: rgb(41, 166, 92);
+
+}
+.red {
+  color: rgb(212, 30, 30)
 }
